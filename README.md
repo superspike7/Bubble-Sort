@@ -13,9 +13,9 @@ This project is part of The Odin Project’s Ruby Programming [curriculum](https
 Sort an array of numbers by checking each number and number next to it. If the first number is bigger than the next number then it should be swapped and then move to the next, other wise if the first number is smaller no swapping will be occured and proceed to the next.
 
 ### **Solution/Pseudocode:**
-# get an array input from the user
-# check if the array is already sorted and return if it is, if not do the bubble sort alg
-# loop arr.length times
-# inside the loop will be an itteration that swaps two elements of the array if the first one is bigger, else move the the next element and compare it to the element next to it.
-# if the element next to it is nil, then end the itteration.
-# return the array
+* get an array input from the user
+* check if the array is already sorted and return if it is, if not do the bubble sort alg
+* loop arr.length times
+* inside the loop will be an itteration that swaps two elements of the array if the first one is bigger, else move the the next element and compare it to the element next to it.
+* if the element next to it is nil, then end the itteration.
+ return the array
